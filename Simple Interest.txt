@@ -1,0 +1,8 @@
+#Write a program to calculate simple interest.
+	
+#Python code to calculate Simple Interest
+principal=int(input("Principal Amount : "))
+rate= float(input("Interest Rate  : "))
+years= float(input("Number of years : "))
+simple_interest=(principal*years*rate)/100
+print("The simple interest is. ",simple_interest)
